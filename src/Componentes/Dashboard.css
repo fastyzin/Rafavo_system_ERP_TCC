@@ -1,0 +1,154 @@
+body  {
+    background-color: rgb(221, 221, 221);
+    margin: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar ul li {
+  list-style: none; 
+  padding: 10px; 
+  transition: background-color 0.3s; 
+}
+.sidebar ul li:hover {
+  background-color: #42596f; 
+  cursor: pointer; 
+}
+
+.sidebar li {
+    padding: 20px; 
+    border-bottom: none; 
+    transition: background-color 0.4s; 
+}
+
+.sidebar {
+    color: white;
+    padding: 10px;
+    font-size: 1.4em;
+    list-style: none;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  #192129;
+    width: 250px;
+    height: 900px;
+    letter-spacing: 0.5px;
+    box-shadow: 4px 0px 0px rgb(229, 136, 7);
+    position: fixed;
+    padding-top: 70px;
+}
+
+.cabecalho {
+    display: flex;
+    background-color: #080c11;
+    height: 50px;
+    width: 100%;
+    padding-right: 10px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    position: fixed;
+    z-index: 1;
+}
+
+
+
+.main {
+    margin-left: 220px;
+    padding: 20px;
+  }
+  
+
+  
+  .card {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 50px;
+    display: inline-block;
+    
+  }
+  .card p {
+    text-align: right;
+  }
+  
+  .inlinecard {
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    
+    font-size: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Poppins, sans-serif;
+}
+
+
+  th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+  }
+
+  th {
+      background-color: #f2f2f2;
+  }
+
+  tr:nth-child(even) {
+      background-color: #f2f2f2;
+  }
+  .card_grafico {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 630px;
+    height: auto;
+    margin-left: 100px;
+    display: inline-block;
+    text-align: center;
+  }
+  .card_grafico img {
+    width: 380px;
+    
+    
+  }
+  .espaco {
+    margin-right: 100;
+  }
+  
+  .card h2 {
+    text-align: right;
+    font-family: Poppins, sans-serif;
+    font-size: 17px;
+    color: rgb(151, 151, 151);
+    margin-bottom: 10px;
+  }
+  .card_grafico h2 {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 17px;
+    color: rgb(151, 151, 151);
+    margin-bottom: 10px;
+  }
+  .card img {
+    width: 90px;
+    height: 70px;
+    float: left; 
+      
+   
+  }
+
+

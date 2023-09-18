@@ -1,0 +1,210 @@
+body  {
+    background-color: rgb(221, 221, 221);
+    margin: 0;
+    font-family: poppins, sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ .card {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 50px;
+    display: inline-block;
+    
+  }
+  .card p {
+    text-align: right;
+  }
+  .pdv {
+    
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        width: 90%;
+        height: auto;
+        margin-left: 100px;
+        margin-top: 50px;
+        display: inline-block;
+}
+.pdv h1 {
+    font-family: poppins, sans-serif;
+    text-align: left;
+    letter-spacing: 0.3px;
+    margin-bottom: 20px;
+}
+.codigodebarras {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    margin: 0;
+    width: auto;
+    height: auto;
+}
+.produtos {
+    
+    
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.produtos h1 {
+    font-family: poppins, sans-serif;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+
+.findproduct_button {
+    border: 0;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    box-shadow: 0px 0px 3px black;
+    cursor: pointer;
+}
+
+.donebuy_button {
+    border: 0;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    box-shadow: 0px 0px 3px black;
+    cursor: pointer;
+    background-color: #42CB70;
+    color: white;
+    text-align: center;
+    
+}
+.select_paymentmethod {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 100%;
+    border: 0;
+    box-shadow: 0 0 2px black;
+    padding: 5px;
+}
+  
+.inventario {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .produto {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    width: auto;
+    display: inline-block;
+  }
+  
+  .produto:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .produto.selecionado {
+    background-color: limegreen;
+    transition: 0.3s;
+  }
+  
+  .produto h3 {
+    margin: 0;
+  }
+.label_selectpaymentmethod {
+    font-family: poppins, sans-serif;
+    font-size: 20px;
+}
+.carrinho {
+    margin-top: 20px;
+    padding: 12px;
+ }
+.carrinho h1 {
+    font-family: poppins, sans-serif;
+    margin-bottom: 12px;
+  }
+.showitem_cart {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+  .carrinho h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  .carrinho li {
+    list-style-type: none;
+  }
+
+.main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+
+.sidebar ul li {
+    list-style: none; 
+    padding: 10px; 
+    transition: background-color 0.3s; 
+  }
+  .sidebar ul li:hover {
+    background-color: #42596f; 
+    cursor: pointer; 
+  }
+  
+  .sidebar li {
+      padding: 20px; 
+      border-bottom: none; 
+      transition: background-color 0.4s; 
+  }
+  
+  .sidebar {
+      color: white;
+      padding: 10px;
+      font-size: 1.4em;
+      list-style: none;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color:  #192129;
+      width: 250px;
+      height: 900px;
+      letter-spacing: 0.5px;
+      box-shadow: 4px 0px 0px rgb(229, 136, 7);
+      position: fixed;
+      padding-top: 70px;
+  }
+  
+  .cabecalho {
+      display: flex;
+      background-color: #080c11;
+      height: 50px;
+      width: 100%;
+      padding-right: 10px;
+      box-shadow: 0px 0px 15px rgb(0, 0, 0);
+      position: fixed;
+      z-index: 1;
+  }
